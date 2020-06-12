@@ -1,0 +1,14 @@
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #606060;
+}
+
+.container > ul{
+    margin-top: 20px;
+    margin-left: 10%;
+    list-style: none;
+}

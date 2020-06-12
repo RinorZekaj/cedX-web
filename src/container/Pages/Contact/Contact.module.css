@@ -1,0 +1,54 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 110px;
+    padding-right: 0px;
+    right: 0;
+}
+
+.map{
+    width: auto;
+    height: auto;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.map > img{
+    width: 100%;
+}
+
+.info{
+    width: auto;
+    height: auto;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 0px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > hr{
+    width: 300px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: #0C49F0;
+    border: none;
+}
+
+.contact {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #0C49F0;
+    font-weight: bold;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: auto;
+    margin-bottom: 70px;
+}

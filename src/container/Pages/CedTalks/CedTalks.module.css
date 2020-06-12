@@ -1,0 +1,186 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 110px;
+    padding-right: 0px;
+    right: 0;
+}
+
+.wrapper{
+    width: auto;
+    height: 500px;
+    margin-left: 110px;
+    margin-right: 110px;
+    /* border: 1px solid red; */
+}
+
+.TopRow{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+}
+
+.topLeft{
+    position: relative;
+    width: 35%;
+    height: 260px;
+    /* border: 1px solid blue; */
+    display: flex;
+    /* overflow: hidden; */
+}
+
+.topRight{
+    position: relative;
+    width: 65%;
+    height: 320px;
+    /* border: 1px solid orange; */
+    display: flex;
+}
+
+.BottomRow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom1{
+    position: relative;
+    width: 35%;
+    height: 190px;
+    margin-top: -60px;
+    /* border: 1px solid violet; */
+    display: flex;
+}
+
+.bottom2{
+    position: relative;
+    width: 15%;
+    height: 130px;
+    /* border: 1px solid aqua; */
+}
+
+.bottom3{
+    width: 25%;
+    height: 180px;
+    /* border: 1px solid brown; */
+    background: #0040F0;
+}
+
+.progressWrapper{
+    position: relative;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: 25%;
+    border: 1px solid #0040F0;
+}
+
+.progressBar{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #062C7F;
+    border-radius: 5px;
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.progress{
+    position: absolute;
+    right: 80%;
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.progressValue{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 80%;
+    /* border: 1px solid red; */
+    color: white;
+    font-size: medium;
+    top: 0px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.progressValueAll{
+    position: absolute;
+    width: 100%;
+    right: 80%;
+    text-align: right;
+    /* border: 1px solid red; */
+    color: white;
+    font-size: medium;
+    top: 28px;
+    font-weight: bold;
+}
+
+.controler{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.controler > button{
+    background-color: #0040F0;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+}
+
+.controler > button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.bottom4{
+    position: relative;
+    width: 25%;
+    height: 130px;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+}
+
+.topLeftCard_1 { position: absolute;width: 100%;height: 100%;background: #5BC0EB; }
+.topLeftCard_2 { background: #FDE74C;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.topLeftCard_3 { background: #9BC53D;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.topLeftCard_4 { background: #E55934;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.topLeftCard_5 { background: #FA7921;height: 0px;width: 100%;position: absolute;bottom: 0; }
+
+
+.topRightCard_1 { background: #9BC53D;height: 100%;width: 100%;position: absolute;right: 0; }
+.topRightCard_2 { background: #E55934;height: 100%;width: 0px;position: absolute;right: 0; }
+.topRightCard_3 { background: #FA7921;height: 100%;width: 0px;position: absolute;right: 0; }
+.topRightCard_4 { background: #5BC0EB;height: 100%;width: 0px;position: absolute;right: 0; }
+.topRightCard_5 { background: #FDE74C;height: 100%;width: 0px;position: absolute;right: 0; }
+
+.bottom1Card_1 { background: #E55934;height: 100%;width: 100%;position: absolute;right: 0; }
+.bottom1Card_2 { background: #FA7921;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom1Card_3 { background: #5BC0EB;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom1Card_4 { background: #FDE74C;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom1Card_5 { background: #9BC53D;height: 100%;width: 0px;position: absolute;right: 0; }
+
+.bottom2Card_1 { background: #FDE74C;height: 100%;width: 100%;position: absolute; }
+.bottom2Card_2 { background: #9BC53D;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.bottom2Card_3 { background: #E55934;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.bottom2Card_4 { background: #FA7921;height: 0px;width: 100%;position: absolute;bottom: 0; }
+.bottom2Card_5 { background: #5BC0EB;height: 0px;width: 100%;position: absolute;bottom: 0; }
+
+.bottom4Card_1 { background: #FA7921;height: 100%;width: 100%;position: absolute;right: 0; }
+.bottom4Card_2 { background: #5BC0EB;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom4Card_3 { background: #FDE74C;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom4Card_4 { background: #9BC53D;height: 100%;width: 0px;position: absolute;right: 0; }
+.bottom4Card_5 { background: #E55934;height: 100%;width: 0px;position: absolute;right: 0; }

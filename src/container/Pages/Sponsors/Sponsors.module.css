@@ -1,0 +1,124 @@
+.container{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 110px;
+    padding-right: 0px;
+    right: 0;
+}
+
+.boxHolder{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.vL{
+    border: 1px solid #F7F7F7;
+    height: 150px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.one{
+    border: 1px solid #F7F7F7;
+    height: 150px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.two{
+    border: 1px solid #F7F7F7;
+    margin-top: 50px;
+    height: 150px;
+    width: auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxHolder{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box{
+        width: 45%;
+        height: 250px
+    }
+    .one{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .boxHolder{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box{
+        width: 45%;
+        height: 250px
+    }
+    .one{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .boxHolder{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .box{
+        width: 45%;
+        height: 250px
+    }
+    .one{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .boxHolder{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    .box{
+        width: 33%;
+        height: 250px
+    }
+    .one{
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .boxHolder{
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    .box{
+        width: 33%;
+        height: 250px
+    }
+    .one{
+        display: block;
+    }
+    .two{
+        display: none;
+    }
+}

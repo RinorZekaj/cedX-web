@@ -1,0 +1,102 @@
+.container{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.article{
+    margin-left: 20px;
+    width: 93%;
+}
+
+.letter{
+    width: auto;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.author{
+    text-align: left;
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+
+.title{
+    width: auto;
+    text-align: left;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.date{
+    width: auto;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    font-weight: bolder;
+}
+
+.btn{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    bottom: -25px;
+    left: 30%;
+    background-color: #0040F0;
+    border: none;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .article{
+        width: 90%;
+    }
+    .btn{
+        position: relative;
+        width: 100px;
+        height: 150px;
+        left: 50px;
+        bottom: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .letter{
+        margin-top: 25px;
+    }
+    .article{
+        margin-left: 30px;
+    }
+    .date{
+        margin-bottom: 45px;
+    }
+    .title{
+        font-size: 2.3em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

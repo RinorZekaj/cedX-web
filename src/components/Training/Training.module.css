@@ -1,0 +1,170 @@
+.project{
+    width: 90%;
+    height: auto;
+    /* background-color: white; */
+    margin-left: 5%;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image{
+    position: relative;
+    width: 60%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin-bottom: -25px;
+}
+
+.image > img{
+    width: 100%;
+}
+
+.gradient{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-image: linear-gradient(to left, rgba(247, 144, 33, 0.7), rgba(0, 0, 0, 0));
+}
+
+.info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.title{
+    width: 90%;
+    margin-left: 5%;
+    /* border: 1px solid blue; */
+    text-align: left;
+    color: #F79021;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+#teacher{
+    color: #0040F0;
+    font-weight: bold;
+}
+
+.info > p{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.btn{
+    width: 45%;
+    height: 50px;
+    margin-top: -25px;
+    border: none;
+    background-color: #F79021;
+    color: white;
+}
+
+#description{
+    margin-bottom: 15px;
+    color: #4F4F4F;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .project{
+        position: relative;
+        flex-direction: row;
+        width: 85%;
+        height: 400px;
+        /* border: 1px solid red; */
+        margin-left: 7%;
+        align-items: center;
+    }
+    .image{
+        width: 49%;
+        margin-bottom: 0;
+    }
+    .info{
+        width: 50%;
+        height: 330px;
+        /* border: 1px solid red; */
+        margin-right: -40px;
+        padding-top: 30px;
+    }
+    .info > p{
+        width: 90%;
+        margin-left: 0;
+        /* border: 1px solid red; */
+        margin-bottom: -5px;
+    }
+    .title{
+        margin-left: 0;
+        font-size: 2.3em;
+        font-weight: bolder;
+    }
+    #description{
+        position: absolute;
+        bottom: 50px;
+        width: 40%;
+        left: 52%;
+    }
+    .btn{
+        height: 36%;
+        width: 100px;
+        margin-right: -50px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .project{
+        margin-bottom: 80px;
+        margin-left: 10%;
+    }
+    .image{
+        width: 45%;
+    }
+    .info{
+        height: 380px;
+    }
+    #description{
+        left: 48%;
+    }
+    .btn{
+        height: 40%;
+        width: 110px;
+        margin-left: -15px;
+    }
+    .title{
+        font-size: 3em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .project{
+        margin-bottom: 140px;
+        margin-left: 7%;
+    }
+    .info{
+        width: 55%;
+        height: 430px;
+    }
+    .btn{
+        height: 45%;
+        width: 120px;
+        margin-left: -20px;
+    }
+    .title{
+        font-size: 4em;
+    }
+}

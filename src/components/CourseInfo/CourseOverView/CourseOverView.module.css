@@ -1,0 +1,24 @@
+.container{
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.title, .overview{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.overview{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: #606060;
+    white-space: pre-line;
+}
+
+.hLine{
+    width: 40%;
+    margin-left: 10%;
+    border: 1px solid #EAEAEA;
+}
